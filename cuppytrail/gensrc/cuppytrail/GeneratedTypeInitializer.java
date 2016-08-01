@@ -91,6 +91,8 @@ public class GeneratedTypeInitializer extends AbstractTypeInitializer
 			
 				single_createattr_Stadium_StadiumType();
 			
+				single_createattr_Stadium_stadiumImage();
+			
 		createRelationAttributes(
 			"StadiumMatchRelation", 
 			false, 
@@ -159,6 +161,23 @@ public class GeneratedTypeInitializer extends AbstractTypeInitializer
 					"StadiumType",  
 					null,
 					"StadiumType",
+					de.hybris.platform.jalo.type.AttributeDescriptor.READ_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.WRITE_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.OPTIONAL_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.REMOVE_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.SEARCH_FLAG,
+					null,
+					sqlColumnDefinitions
+				);
+			
+	}
+	
+	public void single_createattr_Stadium_stadiumImage() throws JaloBusinessException
+	{
+		
+						Map sqlColumnDefinitions = null;
+					
+				createPropertyAttribute(
+					"Stadium", 
+					"stadiumImage",  
+					null,
+					"MediaContainer",
 					de.hybris.platform.jalo.type.AttributeDescriptor.READ_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.WRITE_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.OPTIONAL_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.REMOVE_FLAG|de.hybris.platform.jalo.type.AttributeDescriptor.SEARCH_FLAG,
 					null,
 					sqlColumnDefinitions
@@ -236,6 +255,8 @@ public class GeneratedTypeInitializer extends AbstractTypeInitializer
 		
 			single_setAttributeProperties_Stadium_StadiumType();
 		
+			single_setAttributeProperties_Stadium_stadiumImage();
+		
 				setDefaultProperties(
 					"StadiumType",
 					true,
@@ -311,6 +332,28 @@ public class GeneratedTypeInitializer extends AbstractTypeInitializer
 								false, 
 								em().getEnumerationValue("StadiumType","openair"),
 								"em().getEnumerationValue(\"StadiumType\",\"openair\")",
+								null,
+								true,
+								true,
+								null,
+								customPropsMap,
+								null
+							);
+						}
+					
+						public void single_setAttributeProperties_Stadium_stadiumImage() throws JaloBusinessException
+						{
+							
+							
+							
+							Map customPropsMap = new HashMap();
+							
+							setAttributeProperties(
+								"Stadium", 
+								"stadiumImage",
+								false, 
+								null,
+								null,
 								null,
 								true,
 								true,
