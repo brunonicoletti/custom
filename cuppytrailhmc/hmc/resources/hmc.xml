@@ -3,7 +3,7 @@
 						xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 						xsi:schemaLocation="hybris.de/schemas/hmc/generic hmc.xsd">
 						
-<!-- Configuration for extension cuppytrail -->
+
 	<explorertree>
 		<group name="cuppytrailgroup">
 			<typeref type="Stadium"/>
